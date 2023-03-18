@@ -1,5 +1,5 @@
-##Created this website using React.
+#Created this website using React.
 
-##Used MySQL for Database.
+#Used MySQL for Database.
 
-##Developed backend on node.
+#Developed backend on node.
