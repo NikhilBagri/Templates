@@ -6,5 +6,5 @@
 
 ##How to run
 * npm install
-* to start backend server select the server bolder and run node index.js
+* to start backend server select the server folder and run node index.js
 * npm start
