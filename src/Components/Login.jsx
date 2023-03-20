@@ -24,8 +24,8 @@ export default function Login() {
             setError(true);
           } else {
             setLoginStatus(response.data[0].username + "  LOGGED IN");
-            localStorage.setItem("token", response.data.token); // save token to localStorage
-            navigate("/dashboard"); // redirect to the dashboard page
+            localStorage.setItem("token", response.data.token);
+            navigate("/dashboard");
           }
         }
       });
