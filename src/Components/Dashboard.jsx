@@ -4,7 +4,7 @@ import "./Dashboard.css";
 function Dashboard() {
   return (
     <div className="container">
-      <h1>Dashboard</h1>
+      <h1 className="h1 my-5">Dashboard</h1>
       <div className="row">
         <div className="card mx-auto my-3" style={{ width: "600px" }}>
           <img className="card-img-top" src="Templates\Blue.jpg" alt="Red" />
