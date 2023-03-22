@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+.login{
+  color: white;
+}
+.register{
+  color: white;
+}
 
 .App-logo {
   height: 40vmin;

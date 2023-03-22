@@ -38,7 +38,7 @@ export default function Register() {
 
   return (
     <div className="col-sm-6 offset-sm-3">
-      <h1>Register</h1>
+      <h1 className="register my-5">Register</h1>
       <br />
       <input
         type="email"
@@ -76,7 +76,7 @@ export default function Register() {
       {error ? <label>Field cant be empty</label> : ''}
       <br />
       <br />
-      <button className="btn btn-primary" onClick={register}>
+      <button className="btn btn-dark" onClick={register}>
         Signup
       </button>
       

@@ -33,7 +33,7 @@ export default function Login() {
 
   return (
     <div className="col-sm-6 offset-sm-3">
-      <h1>Login</h1>
+      <h1 className="login my-5">Login</h1>
       <form>
         <input
           type="text"
@@ -59,7 +59,7 @@ export default function Login() {
         {error ? <label>Field cant be empty</label> : ""}
         <br />
         <br />
-        <button className="btn btn-primary" onClick={login}>
+        <button className="btn btn-dark" onClick={login}>
           Login
         </button>
       </form>
