@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">Templates</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@ const Navbar = () => {
             )}
           </ul>
           {token && (
-            <button className="btn btn-outline-dark" onClick={handleLogout}>Logout</button>
+            <button className="btn btn-outline-danger" onClick={handleLogout}>Logout</button>
           )}
         </div>
       </div>
