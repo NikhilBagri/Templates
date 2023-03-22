@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <div className="container">
       <h1>Login to select a template</h1>
-        <div class="row">
+        <div className="row">
           <div className="card mx-auto my-3" style={{ width: "600px" }}>
             <img className="card-img-top" src="Templates\Blue.jpg" alt="Blue" />
             <div className="card-body">
