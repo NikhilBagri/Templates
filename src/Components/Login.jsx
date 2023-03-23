@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./Dashboard.css"
 
 export default function Login() {
   const navigate = useNavigate();
@@ -43,8 +44,7 @@ export default function Login() {
             setUsername(e.target.value);
           }}
         />
-        <br />
-        {error ? <label>Field cant be empty</label> : ""}
+        {error ? <label className="label">Field cant be empty</label> : ""}
         <br />
         <br />
         <input
@@ -55,8 +55,7 @@ export default function Login() {
             setPassword(e.target.value);
           }}
         />
-        <br />
-        {error ? <label>Field cant be empty</label> : ""}
+        {error ? <label className="label">Field cant be empty</label> : ""}
         <br />
         <br />
         <button className="btn btn-dark" onClick={login}>

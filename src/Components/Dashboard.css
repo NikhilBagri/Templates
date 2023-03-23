@@ -5,3 +5,10 @@
 .h1{
     color: white;
 }
+.label{
+    color: white;
+}
+.form-control{
+    width: 300px;
+    margin:auto;
+}

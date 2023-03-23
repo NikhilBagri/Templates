@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
+import "./Dashboard.css"
 
 export default function Register() {
   const [email, setEmail] = useState("");
@@ -48,8 +49,7 @@ export default function Register() {
           setEmail(e.target.value);
         }}
       />
-      <br />
-      {error ? <label>Field cant be empty</label> : ''}
+      {error ? <label className="label">Field cant be empty</label> : ''}
       <br />
       <br />
       <input
@@ -60,8 +60,7 @@ export default function Register() {
           setUsername(e.target.value);
         }}
       />
-      <br />
-      {error ? <label>Field cant be empty</label> : ''}
+      {error ? <label className="label">Field cant be empty</label> : ''}
       <br />
       <br />
       <input
@@ -72,8 +71,7 @@ export default function Register() {
           setPassword(e.target.value);
         }}
       />
-      <br />
-      {error ? <label>Field cant be empty</label> : ''}
+      {error ? <label className="label">Field cant be empty</label> : ''}
       <br />
       <br />
       <button className="btn btn-dark" onClick={register}>

@@ -42,6 +42,9 @@
     transform: rotate(360deg);
   }
 }
+.label{
+  color: white;
+}
 body {
 	background: linear-gradient(-45deg, #23a67f, #1e249c6d, #23b4d57d, #b9ac35);
 	background-size: 400% 400%;
